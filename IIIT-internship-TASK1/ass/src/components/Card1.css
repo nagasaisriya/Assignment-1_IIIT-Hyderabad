@@ -1,0 +1,164 @@
+.card-container1
+{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    
+    transition:0.3s;
+    animation:ease-in-;    
+    margin: 100px;
+}
+
+.card-content5:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+.card-content6:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+.card-content7:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+.card-content8:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+
+.card-content5{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("rolls-royce.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content6{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("suzuki.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content7{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("audi.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content8{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("jaguar.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+h3,p{
+    margin:0;
+    padding:0;
+}
+
+.card-title
+{
+    margin-bottom: 0.5rem;
+}
+
+.btn
+{
+    
+    justify-content: center;
+}
+
+
+
+.btn button:hover{
+    background:rgba(27,156, 252, 0.1);
+    
+}
+
+a{
+    text-transform: uppercase;
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    align-items: center;
+
+}
+.Hide{
+    display: none;
+}
+
+a:hover + div {
+    display:  block;
+    font-size: 25px;
+}
+.full{
+    padding-top: 70%;
+  }
+  .demo{
+    font-size: 1.3rem;
+  }
+  .style{
+    width: 150px;
+    height: 50px;
+  }
