@@ -1,0 +1,212 @@
+header{
+			
+    position: fixed; 
+    
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li a:hover{
+background-color: white;
+color:rgb(58, 16, 223);
+}
+a:hover{
+background-color: whitesmoke;
+color:black;
+}
+.menu{
+padding:20px;
+
+font-size: large;
+font-weight:bold;
+color: black;
+
+width: 100%;
+background-attachment: fixed;
+
+
+}
+
+
+.navbar{
+padding:20px ;
+        padding-left: 1100px;                 
+        height: 70px;
+        position: fixed;
+            top: 0;
+            left: 0;
+            background-image: url("b2.jpeg");
+            width: 100%;
+
+}
+
+
+.card-container
+{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    
+    transition:0.3s;
+    animation:ease-in-;    
+    margin: 100px;
+}
+
+.card-content1:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+   
+    
+}
+
+.card-content2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+.card-content3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+.card-content4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+
+    display: block;
+    font-size: 25px;
+    
+}
+
+
+.card-content1{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("bmw.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content2{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("ferrari.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content3{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("tesla.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+
+.card-content4{
+    margin:1rem;
+    margin-top: 0.5rem;
+    margin:0 -5px;
+    
+    background-image: url("lamborghini.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    float: left;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    margin-left: 40px;
+
+}
+
+h3,p{
+    margin:0;
+    padding:0;
+}
+
+.card-title
+{
+    margin-bottom: 0.5rem;
+}
+
+.btn
+{
+    
+    justify-content: center;
+}
+
+
+
+.btn button:hover{
+    background:rgba(27,156, 252, 0.1);
+    
+}
+
+a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    align-items: center;
+
+}
+.Hide{
+    display: none;
+}
+
+a:hover + div {
+    display:  block;
+    font-size: 1px;
+    color: white;
+}
+.full{
+    padding-top: 70%;
+  }
+  .demo{
+    font-size: 1.3rem;
+  }
+  .style{
+    width: 150px;
+    height: 50px;
+  }
